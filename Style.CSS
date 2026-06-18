@@ -1,0 +1,29 @@
+/*h1{ background-color:cornflowerblue
+
+ }
+ .classA{
+    background-color: blue;
+}*/
+#firstid{
+    background-color: brown;
+}
+
+#firstid{
+    background-color: aqua;
+    background-color: palevioletred;
+}
+
+h2{
+    background-color: aquamarine !important;
+}
+
+class{
+    background-color: green;  
+}
+li{
+    background-color: green;
+}
+h1{
+
+}
+
