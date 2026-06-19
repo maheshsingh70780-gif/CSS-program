@@ -1,0 +1,34 @@
+  /*{
+    margin: 0px;
+    padding: 0px;
+}
+*/
+h2{
+    background-color: goldenrod;
+    position: relative;
+    left:100px;
+    /* top:50px; */
+    /* top right */
+}
+
+h3{
+    background-color: blue;
+    position: fixed;
+    top: 0px;
+    left: 50px;
+    z-index: 15;
+}
+
+h4{
+    background-color: brown;
+    position: sticky;
+    top: 10px;
+}
+p{
+    background-color: chartreuse;
+    position:absolute;
+    left: 50px;
+    top: 0px;
+    margin: opx;
+    z-index: 10;
+}
