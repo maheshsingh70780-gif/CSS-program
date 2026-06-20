@@ -1,0 +1,34 @@
+.container{
+    background-color: antiquewhite;
+    display: flex;
+    height: 600px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*justify content:main axis ke around kaam karta hai
+main axis decide kun karega ,aapka flex direction*/
+
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    
+}
+
+.first{
+    background-color: orange;
+}
+.Second{
+    background-color: green;
+}
+
+.Third{
+    background-color: red;
+}
+
+.Fourth{
+    background-color: blue;
+}
