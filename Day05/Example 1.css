@@ -1,0 +1,96 @@
+/**{
+    padding: 0;
+    margin: 0;
+   box-sizing: border-box ;
+}
+
+body{
+    background-color:black;
+    color: white;
+font-size: 40px;
+}
+
+
+.container{
+display: grid;
+height: 800px;
+width: 800px;
+grid-template-columns:1fr 1fr 1fr;
+grid-template-rows:1fr 2fr 2fr 1fr ;
+gap: 15px;
+padding: 10px;
+}
+.box{
+    background-color:rgb(95, 95, 168);
+}
+.header{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.sidebar{
+    grid-row-start: 2;
+    grid-row-end:4;
+}
+
+.content1{
+     grid-column: 2/4;
+}
+
+.footer{
+     grid-column:1/4;
+    
+}
+
+*/
+*{
+    padding: 0;
+    margin: 0;
+   box-sizing: border-box ;
+}
+
+body{
+    background-color:black;
+    color: white;
+font-size: 40px;
+}
+
+
+.container{
+display: grid;
+height: 800px;
+width: 800px;
+grid-template-columns:1fr 1fr 1fr 1fr;
+grid-template-rows:1fr 1fr 1fr;
+gap: 15px;
+padding: 10px;
+}
+.box{
+    background-color:rgb(95, 95, 168);
+
+}
+.first{
+    grid-row:1/4;
+    background-color: green;
+}
+
+.second{
+     grid-column: 2/4;
+    background-color: green;
+}
+.third{
+    background-color:red;
+}
+.six{
+     grid-row: 2/4;
+     grid-column:4/5;
+     background-color:green;
+}
+.fourth,.eight{
+    background-color: goldenrod;
+}
+
+.fifth,.seven{
+    background-color: sienna;
+    
+}
