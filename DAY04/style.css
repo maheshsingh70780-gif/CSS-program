@@ -1,0 +1,54 @@
+body{
+  padding: 0%;
+}
+.title {
+	color: #5C6AC4;
+     background-color: antiquewhite;
+     
+}
+.container{
+    background-color: antiquewhite;
+    display: flex;
+    height: 600px;
+    flex-direction: row;
+    /*justify-content: center;
+    align-items: center;*/
+    /*flex-wrap: wrap;*/
+    gap:5px;
+}
+
+
+/*justify content:main axis ke around kaam karta hai
+main axis decide kun karega ,aapka flex direction*/
+
+.box{
+    height: 100px;
+    width: 100px;
+    /*margin: 5px;*/
+    
+}
+
+.first{
+    background-color: #ffa500;
+    flex-grow: 1;
+}
+.Second{
+    background-color: green;
+    flex-shrink: 4;
+    /*flex-grow: 1;*/
+}
+
+.Third{
+    background-color: red;
+    /*align-self: flex-end;*/
+   flex-grow: 2;
+}
+
+.Fourth{
+    background-color: blue;
+    flex-grow: 1;
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> a85563919b79f3781ec54b41d622a48ea1f94ca2
